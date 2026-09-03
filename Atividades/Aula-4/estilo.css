@@ -1,0 +1,107 @@
+/*o código abaixo serve para resetar, eliminar os espaços naturais do HTML*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    padding: 20px;
+    width: 100%;
+    clear: both;
+}
+
+header {
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 0;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#foto {
+    width: 100px;
+    height: 100px;
+    background-color: #666666;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+nav {
+    margin: 4px 0;
+}
+
+/*limpa os marcadores/simbolos das listas*/
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #474747;
+    margin-top: 18px;
+    border-top: dashed 3px #cccccc;
+
+}
+
+p {
+    margin: 18px 0;
+}
+
+.destaque-vermelho {
+    color: rgb(164, 34, 34);
+    font-style: italic;
+}
+
+.job {
+    margin: 8px;
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    float: left;
+}
+
+li {
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+/*MOBILE: as regras abaixo são apenas para telas grandes*/
+@media(min-width: 1024px) {
+    aside {
+        padding: 4px;
+        float: left;
+        width: 20%;
+        text-align: right;
+    }
+
+    main {
+        float: right;
+        width: 75%;
+        padding: 4px;
+    }
+}
