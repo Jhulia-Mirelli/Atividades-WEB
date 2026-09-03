@@ -12,6 +12,7 @@ Resolução de exercícios em HTML5, PHP e CSS feitos em aula.
 [Aula 3 - Formulário](https://jhulia-mirelli.github.io/Atividades-WEB/Atividades/Aula-3-Formul%C3%A1rio/formulario.html)
 
 [Aula 3 - Tabela](https://jhulia-mirelli.github.io/Atividades-WEB/Atividades/Aula-3-tabela/tabela_aula3.html)
-<!--[Aula ]()
-[Aula ]()
-[Aula ]()-->
+
+[Aula 4 - Portfolio](https://jhulia-mirelli.github.io/Atividades-WEB/Atividades/Aula-4/portfolio.html)
+
+<!--[Aula ]()-->
