@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <form action="envio.php" class="was-validated">
+
+        <div class="form-group">
+            <label for="cliente">Nome:</label>
+            <input type="text" class="form-control" id=″cliente″ name=″cliente″>
+            <div class=″valid-feedback″>ok</div>
+            <div class="invalid-feedback">Ops! Verifique seu nome</div>
+        </div>
+
+        <div class="form-group">
+
+            <label for="email">Telefone:</label>
+
+            <input type="email" class="form-control" id=″email″ name=″email″>
+            <div class="valid-feedback">Ok</div>
+            <div class="invalid-feedback">Ops! Verifique seu e-mail</div>
+        </div>
+        <div class="form-group">
+
+            <textarea class="form-control" name="pedido"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+
+    <ul class="list list-group list-unntyled">
+        <li class="list-group-item">Prato 1</li>
+        <li class="list-group-item-action">Prato 2 (escolha do dia)</li>
+        <li class="list-group-item">Prato 3</li>
+    </ul>
+</body>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Produtos</a>
+    </li>
+    <li class="nav-item">
+        <a class=”nav-link” href=”#”>Serviços</a>
+    </li>
+    <li class=”nav-item”>
+        <a class=”nav-link disabled” href=”#”>Disabled</a>
+    </li>
+</ul>
+
+</html>
