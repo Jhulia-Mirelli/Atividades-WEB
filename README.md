@@ -16,4 +16,6 @@ Resolução de exercícios em HTML5, PHP e CSS feitos em aula.
 - [Aula 4 - Portfolio](https://jhulia-mirelli.github.io/Atividades-WEB/Atividades/Aula-4/portfolio.html)
 
 - [Aula 5 - Introdução ao Bootstrap](https://jhulia-mirelli.github.io/Atividades-WEB/Atividades/Aula-5/aprendendo_bootstrap.html)
+
+- [Aula 5 - Nav](https://jhulia-mirelli.github.io/Atividades-WEB/Atividades/Aula-5-Nav/cardapio.html)
 <!--[Aula ]()-->
