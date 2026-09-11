@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+        Abrir modal
+    </button>
+
+    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="tituloModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tituloModal">
+                        Título do modal
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    Aqui você pode digitar um texto, um formulário, ou uma imagem.
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuRestaurante"
+            id="menuHome">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuRestaurante" aria-labelledby="menuHome">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Cardápio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--coluna 1-->
+            <div class="col-md-6">
+                <div class="row">
+                    <!--coluna de imagem-->
+
+                    <div class="col-3">
+                        <img src="" alt="">
+                    </div>
+                    <!--coluna de texto-->
+                    <div class="col-7">
+                        <h2>Opção do dia</h2>
+                        <p>Lista de ingredientes, acompanhamento...</p>
+                    </div>
+                </div>
+            </div>
+            <!--coluna 2-->
+            <div class="col-md-6">
+                <div class="row"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="menuEscolha1" data-toggle="dropdown">
+            Escolha aqui<span class="caret"></span>
+        </button>
+
+        <div class="dropdown-menu" aria-labelledby="menuEscolha1">
+            <a class="dropdown-item" href="#">Massa</a>
+            <a class="dropdown-item" href="#">Carne</a>
+            <a class="dropdown-item" href="#">Salada</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Tipo de pedido</h6>
+            <a class="dropdown-item" href="#">Retirada</a>
+            <a class="dropdown-item" href="#">Entrega</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
